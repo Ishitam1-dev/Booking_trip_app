@@ -179,45 +179,8 @@ class _WelcomeState extends State<Welcome> {
                 //push method
               },
             ),
-            //search trips
-            ListTile(
-              leading: Icon(Icons.search),
-              title: Text('Search'),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MyprofileScreen()),
-                );
+          
 
-                //push method
-              },
-            ),
-            //
-            ListTile(
-              leading: Icon(Icons.star_border_outlined),
-              title: Text('Notification'),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MyprofileScreen()),
-                );
-
-                //push method
-              },
-            ),
-
-            ListTile(
-              leading: Icon(Icons.account_box_outlined),
-              title: Text('My Profile'),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MyprofileScreen()),
-                );
-
-                //push method
-              },
-            ),
           ],
         ),
       ),
@@ -250,4 +213,5 @@ REMAINING THINGS
 DB CONNECTIVITY
 class to store variable
 add data at my trip
+
  */
